@@ -1,0 +1,85 @@
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    background-image: linear-gradient(#240046,#3c096c,#5a189a,#7b2cbf,#9d4edd);
+    }
+
+button{
+    border: none;
+    width: 300px;
+    height: 60px;
+    font: bold 1.9rem sans-serif;
+    font-style: normal, white;
+    background-image: radial-gradient(#2d6a4f,#1b4332,#081c15);
+    outline: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-image: radial-gradient(#80ffdb,#72efdd,#64dfdf,#56cfe1,#48bfe3,#4ea8de,#5390d9,#5e60ce,#6930c3,#7400b8);
+}
+.container{
+    display: flex;
+    width: 1000px;
+    height: 900px;
+    justify-content: right;
+}
+.title{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 70px;
+	font: bold 2.0rem serif;
+    
+	border-bottom: solid 5px rgb(211, 167, 167);
+	margin-bottom: 25px;
+
+}
+.calculo{
+    background-image: radial-gradient(#006466,#065a60,#0b525b,#144552,#1b3a4b,#212f45,#272640,#312244,#3e1f47,#4d194d);
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: 600px;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 20px;
+    box-shadow: 0 0 10px #001219;
+}
+    
+.input{
+    display: center;
+    width: 300px;
+    height: 45px;
+    justify-content: space-between;
+    align-items: center;
+    margin: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+    
+.input input{
+    background-image: radial-gradient(#ffcbf2,#f3c4fb,#ecbcfd,#e5b3fe,#e2afff,#deaaff,#d8bbff,#d0d1ff,#c8e7ff,#c0fdff);
+    width: 300px;
+    height: 45px;
+    border-radius: 5px;
+    border: none;
+    outline: 0;
+    font: bold 1.5rem sans-serif;
+    text-align: center;
+}
+.resu{
+    display:flex;
+    margin-top: 20px;
+    align-items: center;
+    width: 400px;
+    height: 200px;
+    border-radius: 5px;
+    font: bolder italic 1.5rem sans-serif;
+    box-shadow: 0 0 10px #001219;
+    padding: 20px;
+    box-sizing: border-box;
+    user-select: none;
+}
